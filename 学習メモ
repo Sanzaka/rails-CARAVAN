@@ -8,7 +8,7 @@
 3-2{
   ・RESTfulなURLを１行で同時作成
   resouces :コントローラ名
-  
+
   <%= yield %>　＝アクションに対応するビューファイルがここに埋め込まれる。
 }
 
@@ -21,5 +21,5 @@
   parmit => permit
 }
 3-5{
-  <%= blog.created_at %> => <%= @blog.cleated_at 
+  <%= blog.created_at %> => <%= @blog.cleated_at
 }
