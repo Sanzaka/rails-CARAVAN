@@ -20,3 +20,6 @@
 3-3{
   parmit => permit
 }
+3-5{
+  <%= blog.created_at %> => <%= @blog.cleated_at 
+}
